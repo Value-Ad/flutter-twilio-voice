@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "123318276696",
+    "firebase_url": "https://twilio-voice-example.firebaseio.com",
+    "project_id": "twilio-voice-example",
+    "storage_bucket": "twilio-voice-example.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:123318276696:android:b9aa4e12e7482313f7302d",
+        "android_client_info": {
+          "package_name": "com.twilio_voice_example"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "123318276696-isehbdgethe4m8qb1sfno1ptqccil021.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDhRzAP9EjD7mYT4q-aGYpNvmhAqjLN6zQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "123318276696-isehbdgethe4m8qb1sfno1ptqccil021.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
