@@ -64,7 +64,7 @@ class IncomingCallNotificationService : Service() {
         } else {
             NotificationCompat.Builder(this)
                     .setSmallIcon(R.drawable.ic_call_end_white_24dp)
-                    .setContentTitle(getString(R.string.app_name))
+                    .setContentTitle("Incoming call")
                     .setContentText(callInvite.from + " is calling.")
                     .setAutoCancel(true)
                     .setExtras(extras)
@@ -99,7 +99,7 @@ class IncomingCallNotificationService : Service() {
         val piAcceptIntent = PendingIntent.getService(applicationContext, 0, acceptIntent, PendingIntent.FLAG_UPDATE_CURRENT)
         val builder: Notification.Builder = Notification.Builder(applicationContext, channelId)
                 .setSmallIcon(R.drawable.ic_call_end_white_24dp)
-                .setContentTitle(getString(R.string.app_name))
+                .setContentTitle("Incoming call")
                 .setContentText(text)
                 .setCategory(Notification.CATEGORY_CALL)
                 .setFullScreenIntent(pendingIntent, true)
