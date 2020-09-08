@@ -127,7 +127,7 @@ public class TwilioVoicePlugin : FlutterPlugin, MethodCallHandler, ActivityAware
 	}
 
 	override fun onMethodCall(@NonNull call: MethodCall, @NonNull result: Result) {
-		if (call.method != "register") {
+		if (call.method != "register" && call.method != "unregister") {
 			if (!checkPermissionForMicrophone()) {
 				requestPermissionForMicrophone()
 				result.error("RECORD_AUDIO_PERMISSION", "RECORD_AUDIO permission not granted", "")
